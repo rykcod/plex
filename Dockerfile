@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos
 MAINTAINER BUFFET Benoit
 RUN yum update
 ENTRYPOINT "echo"
