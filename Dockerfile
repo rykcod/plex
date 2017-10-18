@@ -1,5 +1,3 @@
 FROM centos
 MAINTAINER BUFFET Benoit
-RUN yum update
-ENTRYPOINT "echo"
-CMD ["coucou2"]
+RUN yum -y update && yum clean all
